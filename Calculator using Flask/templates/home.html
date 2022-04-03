@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home Page</title>
+
+   <link rel="stylesheet" href="./Home.css">
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/Home.css') }}">
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <div class="form">
+      <form  action='/maths' method='POST'>
+        <h2>Enter the values </h2>
+
+        Number1: <input type="text" name="num1" id="num1">
+        <br><br><br>
+        Number2: <input type="text" name="num2" id="num2">
+        <br><br><br>
+        <label for="operation">Select Operation:</label>
+        <select class="operation" name="operation">
+          <option value="add">Addition</option>
+          <option value="subtract">Subtraction</option>
+          <option value="Multiplication">Multiplication</option>
+          <option value="Division">Division</option>
+        </select>
+        <br><br><br>
+        <input type="submit" name="Calculate"value="Calculate">
+      </form>
+    </div>
+  </body>
+</html>

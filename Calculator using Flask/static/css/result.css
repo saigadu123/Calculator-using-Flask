@@ -1,0 +1,22 @@
+body{
+  box-sizing: border-box;
+  background-color: #deb887;
+}
+h3{
+  border:2px solid black;
+  text-align: left;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 150px;
+  padding:20px 20px;
+
+}
+p{
+  border:2px solid black;
+  text-align: center;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+#Result #display{
+  position: relative;
+}

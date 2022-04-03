@@ -1,0 +1,14 @@
+body{
+  box-sizing: border-box;
+  margin-left:30px;
+  background-color: #deb887;
+
+}
+h1{
+  text-align: center;
+  color: #0000ff;
+}
+#calculate{
+  height: 20px;
+  width: 50px;
+}
